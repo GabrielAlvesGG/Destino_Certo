@@ -1,0 +1,36 @@
+@model List<PacotesTuristicos>
+
+ <div class="container">
+<table class="table" style="align-items: center; text-align:center; background-color: #1b6ec2; border-radius: 5px;">
+    <h1 style="text-align:center;">Lista de Pacotes</h1>
+    <thead class="thead-dark">
+        <th>id</th>
+        <th>Nome</th>
+        <th>origem</th>
+        <th>Destino</th>
+        <th>Atrativos</th>
+        <th>Saída</th>
+        <th>Retorno</th>
+        <th>Operadores</th>
+    </thead>
+    <tbody class="text-white">
+
+        <!-- Continuar da Lista -->
+        @foreach (PacotesTuristicos item in Model)
+        {
+            <tr>
+                <td>@item.idViagem</td>
+                <td>@item.NomeCliente</td>
+                <td>@item.Origem</td>
+                <td>@item.Destino</td>
+                <td>@item.Atrativos</td>
+                <td>@item.Saida</td>
+                <td>@item.Retorno</td>
+                <td>
+                    <a href="/PacotesTuristicos/Deletar?idViagem=@item.idViagem" style="color: white; text-decoration:none;">Deletar</a>
+                    <a href="/PacotesTuristicos/AtualizarPacotes?idViagem=@item.idViagem" style="color:white; text-decoration:none;">Editar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

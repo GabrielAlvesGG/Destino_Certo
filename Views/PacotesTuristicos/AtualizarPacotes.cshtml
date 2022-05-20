@@ -1,0 +1,36 @@
+@model PacotesTuristicos
+<div class="container">
+    <div class="row border">
+<form method="POST" asp-action="AtualizarPacotes" class="col-12 border  text-white top-200" style="align-items: center; text-align:center; background-color: #1b6ec2; border-radius: 5px;">
+        <h1>Editar Pacotes de Viagens</h1>
+        <input type="hidden" asp-for="idViagem">
+    <p>
+        <label asp-for="NomeCliente">Nome:</label>
+        <input type="text" asp-for="NomeCliente" placeholder="Nome" required>
+    </p>
+    <p>
+        <label asp-for="Origem">Origem: </label>
+        <input type="text" asp-for="Origem" placeholder="Origem" required>
+    </p>
+    <p>
+        <label asp-for="Destino">Destino: </label>
+        <input type="text" asp-for="Destino" placeholder="Destino" required>
+    </p>
+    <p>
+        <label asp-for="Atrativos">Atrativos</label>
+        <input type="text" asp-for="Atrativos" placeholder="Atrativos" required>
+    </p>
+    <p>
+        <label asp-for="Saida">Saida</label>
+        <input type="date" asp-for="Saida" required>
+    </p>
+    <p>
+        <label asp-for="Retorno">Retorno: </label>
+        <input type="date" asp-for="Retorno" required>
+    </p>
+    <p>
+        <input type="submit" value="Cadastrar Pacote" class="btn btn-dark">
+    </p>
+</form> 
+    </div>
+</div>

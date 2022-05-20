@@ -1,0 +1,73 @@
+﻿@using Microsoft.AspNetCore.Http;
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Destino Certo</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+    <link rel="shortcut icon" href="/imagens/logo.jpg" type="image/x-icon">
+</head>
+<body>
+  <header>
+        <nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark " style="background-color: #1b6ec2;">
+            <div class="container-fluid">
+            <a class="navbar-brand h1 mb-0" asp-area="" asp-controller="Home" asp-action="Index"> <img src="/imagens/logo.jpg" class="mr-2" width="60px" height="40px">Destino Certo</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSite">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Início</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDrop" href="#">Cadastros</a>
+                        <div class="dropdown-menu">
+                            <a asp-area="" asp-controller="Clientes" asp-action="CadastroClientes" class="dropdown-item">Cadastro Clientes</a>
+                            <a asp-area="" asp-controller="PacotesTuristicos" asp-action="CadastraPacotes" class="dropdown-item">Cadastro Pacotes Turisticos</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" id="navDropp" href="#">Listas</a>
+                        <div class="dropdown-menu">
+                            <a asp-area="" asp-controller="Clientes" asp-action="ListaClientes" class="dropdown-item">Lista de Clientes</a>
+                            <a asp-area="" asp-controller="PacotesTuristicos" asp-action="ListaPacotes" class="dropdown-item">Lista de pacotes Turisticos</a>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                   @if(Context.Session.GetInt32("id")==null){ <button class="btn btn-dark ml-2"><a asp-area="" asp-controller="Clientes" asp-action="LoginCliente">Login</a></button>
+                   }
+                   else{
+                    <button class="btn btn-dark ml-2"><a asp-area="" asp-controller="Clientes" asp-action="Logout">Logout</a></button>
+                    }
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted" style="background-color: #1b6ec2;">
+        <div class="container" style="color: white;">
+            <div class="row ">
+                <div class="col p-1 "><h3>Destino Certo</h3></div>
+                <div class="col">Entre em contato conosoco</div>
+                <div class="col">Telefone: (11)9999-9999</div>
+                <div class="col">E-mail: contato@DestinoCerto.com.br</div>
+            </div>           
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
