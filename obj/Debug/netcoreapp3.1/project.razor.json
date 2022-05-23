@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2.csproj",
+  "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\atividade2.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14402,77 +14402,77 @@
   "RootNamespace": "atividade2",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Clientes\\ListaClientes.cshtml",
-      "TargetPath": "Views\\Clientes\\ListaClientes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\PacotesTuristicos\\CadastraPacotes.cshtml",
-      "TargetPath": "Views\\PacotesTuristicos\\CadastraPacotes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Clientes\\LoginCliente.cshtml",
-      "TargetPath": "Views\\Clientes\\LoginCliente.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Shared\\_Layout.cshtml",
       "TargetPath": "Views\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Clientes\\Atualizar.cshtml",
-      "TargetPath": "Views\\Clientes\\Atualizar.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\PacotesTuristicos\\AtualizarPacotes.cshtml",
-      "TargetPath": "Views\\PacotesTuristicos\\AtualizarPacotes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Clientes\\Cadastrado.cshtml",
-      "TargetPath": "Views\\Clientes\\Cadastrado.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\_ViewImports.cshtml",
-      "TargetPath": "Views\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\PacotesTuristicos\\ListaPacotes.cshtml",
-      "TargetPath": "Views\\PacotesTuristicos\\ListaPacotes.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Clientes\\CadastroClientes.cshtml",
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Clientes\\Cadastrado.cshtml",
+      "TargetPath": "Views\\Clientes\\Cadastrado.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\_ViewImports.cshtml",
+      "TargetPath": "Views\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Clientes\\CadastroClientes.cshtml",
       "TargetPath": "Views\\Clientes\\CadastroClientes.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\PacotesTuristicos\\ListaPacotes.cshtml",
+      "TargetPath": "Views\\PacotesTuristicos\\ListaPacotes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\PacotesTuristicos\\CadastraPacotes.cshtml",
+      "TargetPath": "Views\\PacotesTuristicos\\CadastraPacotes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Clientes\\ListaClientes.cshtml",
+      "TargetPath": "Views\\Clientes\\ListaClientes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Home\\Index.cshtml",
+      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Clientes\\LoginCliente.cshtml",
+      "TargetPath": "Views\\Clientes\\LoginCliente.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Clientes\\Atualizar.cshtml",
+      "TargetPath": "Views\\Clientes\\Atualizar.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\PacotesTuristicos\\AtualizarPacotes.cshtml",
+      "TargetPath": "Views\\PacotesTuristicos\\AtualizarPacotes.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     }

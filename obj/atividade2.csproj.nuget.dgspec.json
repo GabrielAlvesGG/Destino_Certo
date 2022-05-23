@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2.csproj": {}
+    "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\atividade2.csproj": {}
   },
   "projects": {
-    "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2.csproj": {
+    "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\atividade2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2.csproj",
+        "projectUniqueName": "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\atividade2.csproj",
         "projectName": "atividade2",
-        "projectPath": "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2.csproj",
+        "projectPath": "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\atividade2.csproj",
         "packagesPath": "C:\\Users\\alves\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\obj\\",
+        "outputPath": "C:\\Users\\alves\\OneDrive\\Documentos\\atividades do senac\\mvc\\atividade2\\atividade2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
