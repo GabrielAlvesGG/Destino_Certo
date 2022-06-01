@@ -10,12 +10,12 @@
         <th>Destino</th>
         <th>Atrativos</th>
         <th>Saída</th>
-        <th>Retorno</th>
+        <th>Chegada</th>
         <th>Operadores</th>
     </thead>
     <tbody class="text-white">
 
-        <!-- Continuar da Lista -->
+        
         @foreach (PacotesTuristicos item in Model)
         {
             <tr>
@@ -24,8 +24,8 @@
                 <td>@item.Origem</td>
                 <td>@item.Destino</td>
                 <td>@item.Atrativos</td>
-                <td>@item.Saida</td>
-                <td>@item.Retorno</td>
+                <td>@item.Saida.ToShortDateString()</td>
+                <td>@item.Retorno.ToShortDateString()</td>
                 <td>
                     <a href="/PacotesTuristicos/Deletar?idViagem=@item.idViagem" style="color: white; text-decoration:none;">Deletar</a>
                     <a href="/PacotesTuristicos/AtualizarPacotes?idViagem=@item.idViagem" style="color:white; text-decoration:none;">Editar</a>

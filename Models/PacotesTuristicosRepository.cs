@@ -14,7 +14,7 @@ namespace atividade2.Models
         {
             MySqlConnection conexao = new MySqlConnection(conectaBanco);
             conexao.Open();
-            Console.WriteLine("Funfa pacotes");
+            Console.WriteLine("conectou o banco Pacotes");
             conexao.Close();
         }
         /*          encerrando texte de conexão  */

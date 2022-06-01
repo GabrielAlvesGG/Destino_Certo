@@ -21,7 +21,7 @@
                 <td>@item.nome</td>
                 <td>@item.login]</td>
                 <td>@item.senha</td>
-                <td>@item.dataNascimento</td>
+                <td>@item.dataNascimento.ToShortDateString()</td>
                 <td >
                     <a href="/Clientes/Deletar?id=@item.id" style="color: white; text-decoration: none;">Deletar</a>
                     <a href="/Clientes/Atualizar?id=@item.id" style="color: white; text-decoration: none;">Editar</a>

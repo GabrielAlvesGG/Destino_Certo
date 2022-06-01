@@ -7,13 +7,13 @@ namespace atividade2.Models
 {
     public class ClientesRepository
     {
-        private const string conectaBanco = "DATABASE=destino_certo;Data Source= localhost; User Id=root;";
+        private const string conectaBanco = "DATABASE=destino_certo;Data Source=localhost; User Id=root;";
         /*            TestandoConexao(V)            */
         public void TestaConexao()
         {
             MySqlConnection conexao = new MySqlConnection(conectaBanco);
             conexao.Open();
-            Console.WriteLine("Funfa");
+            Console.WriteLine("conectou o banco Clientes");
             conexao.Close();
         }
         /*            TestandoConexao(V)            */

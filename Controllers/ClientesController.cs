@@ -23,7 +23,7 @@ namespace atividade2.Controllers
            cr.Inserir(cliente);
             ViewBag.Mensagem = "Cadastro Feito com sucesso";
 
-           return View("Cadastra");
+           return RedirectToAction("LoginCliente");
        }
        /*               encerrando CadastroClientes(V)        */
        
